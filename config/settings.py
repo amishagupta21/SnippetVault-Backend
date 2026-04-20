@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-voj#ehdw(x&f0)1yris_$xkdrkvq5bw408l7u^+!)w!-zzg3zv"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -139,3 +141,14 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://amishagupta.live",
+    "https://www.amishagupta.live"
+]
+
+ALLOWED_HOSTS = [
+    "amishagupta.live",
+    "www.amishagupta.live",
+    "34.66.94.101"
+]
