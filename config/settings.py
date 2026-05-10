@@ -94,10 +94,10 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "snippetvault-backend",
+        "NAME": "snippetvault-db",
         "USER": "snippetvault-backend-db",
         "PASSWORD": "v^[@Hkb-8/eECK|Y",
-        "HOST": "104.198.174.76",
+        "HOST": "146.148.77.0",
         "PORT": "5432",
     }
 }
