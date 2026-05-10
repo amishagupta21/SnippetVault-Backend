@@ -150,5 +150,7 @@ CSRF_TRUSTED_ORIGINS = [
 ALLOWED_HOSTS = [
     "amishagupta.live",
     "www.amishagupta.live",
-    "34.66.94.101"
+    "34.66.94.101",
+    "127.0.0.1",
+    "localhost",
 ]
